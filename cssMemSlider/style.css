@@ -113,11 +113,11 @@ body {
 }
 
 #bullets label:hover span {
-  background-color: #7ad7f7;
+  background-color: #7ad7f7 !important;
 }
 #bullets label:active span {
   background-color: #003459;
-  border: 0.2rem solid #ccc;
+  border: 0.2rem solid #fff;
 }
 
 #btn-1:checked ~ #slides .inner {
