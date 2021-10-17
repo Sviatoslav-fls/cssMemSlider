@@ -160,3 +160,33 @@ body {
     transform: scale(100%);
   }
 }
+
+@media screen and (max-width: 768px) {
+  #slider {
+    padding-top: 0;
+  }
+  .slider-title {
+    padding: 3rem 0;
+  }
+  .wrapper {
+    flex-direction: column;
+    height: auto;
+    margin-top: 0;
+  }
+  .slide-text {
+    order: 2;
+  }
+  #bullets {
+    order: 1;
+    justify-content: center;
+    flex: 1 1 100%;
+    padding: 3rem 0;
+  }
+  #bullets label {
+    margin: 0 2rem;
+  }
+  #bullets span {
+    width: 3rem;
+    height: 3rem;
+  }
+}
