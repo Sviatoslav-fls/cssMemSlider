@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background: #00171F;
+  background: #00171f;
   color: #7ad7f7;
   font-family: "Roboto";
 }
@@ -41,7 +41,7 @@ body {
 
 #slides {
   padding: 1rem;
-  border: 0.1rem solid #007EA7;
+  border: 0.1rem solid #007ea7;
   background: #003459;
 }
 #slides .inner {
@@ -67,7 +67,7 @@ body {
 
 .wrapper {
   display: flex;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 .slide-text {
@@ -97,10 +97,13 @@ body {
 }
 #bullets > label {
   display: inline-block;
-  width: 3.2rem;
-  height: 3.2rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.5rem;
+  height: 3.5rem;
   cursor: pointer;
-  margin: 0 0.3rem;
+  margin: 0 0.2rem;
 }
 #bullets span {
   display: inline-block;
@@ -108,7 +111,7 @@ body {
   height: 2rem;
   border-radius: 50%;
   background-color: #003459;
-  border: 0.2rem solid #007EA7;
+  border: 0.2rem solid #007ea7;
   transition: all 0.3s ease;
 }
 
@@ -137,8 +140,8 @@ body {
 #btn-2:checked ~ .wrapper label:nth-child(2) span,
 #btn-3:checked ~ .wrapper label:nth-child(3) span,
 #btn-4:checked ~ .wrapper label:nth-child(4) span {
-  background-color: #007EA7;
-  border: 0.2rem solid #007EA7;
+  background-color: #007ea7;
+  border: 0.2rem solid #007ea7;
 }
 
 #btn-1:checked ~ .wrapper > .slide-text > div:nth-child(1),
@@ -180,10 +183,12 @@ body {
     order: 1;
     justify-content: center;
     flex: 1 1 100%;
-    padding: 3rem 0;
+    padding: 2rem 0;
   }
   #bullets label {
-    margin: 0 2rem;
+    /* margin: 0 2rem; */
+    width: 6rem;
+    height: 6rem;
   }
   #bullets span {
     width: 3rem;
